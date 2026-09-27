@@ -1,0 +1,75 @@
+Section - 18
+------------
+153. Exclude Test case using exclude tag in testng.xml
+154. TestNG.xml file to execute multiple classes - Part 1
+155. TestNG.xml file to execute multiple classes - Part 2
+156. Understanding Parameters annotation.
+157. Implementing Parameters annotation for Orange HRM login test case.
+158. Parameters annotation with @Optional annotation
+159. Understanding the Data Provider annotation.
+160. Data Provider to execute OrangeHRM Login test case with different data.
+161. Understanding the Groups.
+162. Execute test case based on Group name.
+163. Assign multiple groups to single @Test and run @Tests from multiple classes.
+164. DependsOnMethods attribute Introduction
+165. Understan DependsOnMethods with Apply Leave and Approve Leave test cases
+166. Understanding DependsOnMethods with OrangeHRM test cases
+167. Understanding @Test Annotation
+168. Understanding BeforeMethod and AfterMethod Annotations
+169. Understanding BeforeTest and AfterTest Annotations
+170. Understanding BeforeSuite And AfterSuite Annotation [Pending - Need to implement]
+171. Understanding BeforeClass And AfterClass
+172. Understanding Before Groups And After Groups [Pending - Need to implement]
+173. Understanding the TestNG Listeners. [Pending - WIP]
+174. Orange HRM Test cases automation.
+175. End to end steps to implement ITestListener .
+176. End to end steps to implement ISuiteListener. ==> Pending
+177. End to end steps to implement IInvokeMethod Listener.. ==> Pending
+178. End to end steps to implement IAnnotation Transformer Listener. ==> Pending
+
+Section - 19
+------------
+179. Maven Introduction.
+180. Maven Installation.
+181. Create First Maven Project
+182. Understanding the Maven repositories and types.
+183. Understating the pom.xml file of Maven project.
+184. Understanding the Maven Compile phase and Complier plugin.
+185. Understanding the Maven Test phase and SuireFire plugin.
+186. Understanding the Maven Phases - Package, Install and Deploy.
+
+
+Section 20 (Pending)
+--------------------
+
+
+Section 22
+----------
+198. Page Object Model Design Pattern Introduction.
+199. Understating the Page Factory Patterns.
+200. Implement Page Factory Pattern for Orange HRM Test cases.
+
+Section 23
+----------
+201. Understanding the Apache POI Architecture.
+202. Reading the test data from Excel file using Apache POI
+203. Understanding the Properties file.
+204. Reading test data from Properties file using Java properties class.
+
+Section 25
+----------
+207. Understanding the Features of Extent Report Library.
+208. Understand the Sample Extent Report.
+209. Creating ExtentReportUtils class.
+210. Implementing ITestListener for Extent Report.
+211. Adding Extent report steps in test cases.
+
+Section 26
+----------
+212. Git Software Introduction. [Pending]
+
+Section 27
+----------
+228. Jenkins Introduction.
+
+
