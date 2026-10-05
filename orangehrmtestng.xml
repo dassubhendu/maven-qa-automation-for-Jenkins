@@ -6,7 +6,7 @@
     </listeners>
     <test  name="Orange HRM Regression Test Cases">
         <classes>
-            <class name="com.orange.hrm.test.LoginTest"/>
+            <class name="com.orange.hrm.test.LoginPageTest"/>
             <class name="com.orange.hrm.test.HomePageTest"/>
         </classes>
     </test> <!-- Orange HRM Test -->

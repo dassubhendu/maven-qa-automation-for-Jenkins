@@ -25,6 +25,11 @@ public class HomePage{
         adminLink.click();
     }
 
+    public boolean profilePicVisible(){
+        ExtentReportUtility.addStep("Checking profile picture is available in home page.");
+        return profilePic.isDisplayed();
+    }
+
     public void logoutFromApplication(){
         profilePic.click();
         ExtentReportUtility.addStep("Profile picture image is clicked");

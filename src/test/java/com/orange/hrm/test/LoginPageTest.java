@@ -7,13 +7,13 @@ import com.utility.PropertiesUtility;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Properties;
 
-public class LoginTest extends BaseTest{
+public class LoginPageTest extends BaseTest{
 
     @Test
     public void loginWithValidCredential() throws IOException, InvalidFormatException, InterruptedException {
@@ -21,6 +21,8 @@ public class LoginTest extends BaseTest{
         //loginPage.loginApplication("Admin", "admin123");
         loginPage.loginApplication(ExcelUtility.getTestDataFromExcel(1,0), ExcelUtility.getTestDataFromExcel(1,1));
         Thread.sleep(4000);
+        HomePage homePage = new HomePage();
+        Assert.assertTrue(homePage.profilePicVisible());
     }
 
     @Test(enabled = true)
@@ -68,6 +70,8 @@ public class LoginTest extends BaseTest{
         LoginPage loginPage = new LoginPage();
         loginPage.loginApplication(PropertiesUtility.getData("username"), PropertiesUtility.getData("password"));
         Thread.sleep(4000);
+        HomePage homePage = new HomePage();
+        Assert.assertTrue(homePage.profilePicVisible());
     }
 
 
